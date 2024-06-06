@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="estiloForm.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Better Alliance</p>
+            <nav>
+                <a href="index.html">Pagina principal</a>
+                <a href="InicioSesion.html">Iniciar sesion</a>
+            </nav>
+        </div>
+    </header>
+
+    <form class="formulario" id="registroForm">
+
+        <h1>Registro de usuario</h1>
+        <div class="contenedor">
+
+            <div class="input-contenedor">
+                <input type="text" placeholder="Nombre de usuario" id="nombre">
+            </div>
+
+            <div class="input-contenedor">
+                <input type="text" placeholder="Correo Electronico" id="correo">
+            </div>
+
+            <div class="input-contenedor">
+                <input type="password" placeholder="Contraseña" id="contrasena">
+            </div>
+
+            <button type="button" onclick="registrarUsuario()" class="button">Registrate</button><br><br>
+            <p>Al registrarte, estaras aceptando nuestras condiciones de uso y política de privacidad.</p>
+            <p>¿Ya tienes una cuenta?<a class="link" href="InicioSesion.html">Iniciar Sesion</a></p>
+        </div>
+    </form>
+    <div id="mensajeRegistroContainer">
+        <p id="mensajeRegistro"></p>
+    </div>
+
+    <script>
+        
+    </script>
+
+
+</body>
+
+</html>
